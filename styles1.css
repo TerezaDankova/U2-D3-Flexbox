@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+.header {
+  display: flex;
+  background-color:#878980;
+  height: 150px;
+  color: white;
+  margin-block-start: 0;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 300px);
+}
+.footer {
+  display: flex;
+  background-color: #878980;
+  color: white;
+  height: 150px;
+}
+.article {
+  background-color: white;
+  color: #878980;
+  flex-grow: 3;
+}
+.aside {
+  color: #878980;
+  background-color: #defd81;
+  flex-grow: 1;
+}
+.nav {
+  color : white;
+  background-color: #96a85f;
+  flex-grow: 1;
+}
+h3 {
+  font-family: 'Inter', sans-serif;
+  margin-left: 20px;
+  font-size: 1.37em;
+  font-weight: 400;
+}
